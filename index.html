@@ -9,32 +9,6 @@
 <link href='https://fonts.googleapis.com/css?family=RobotoSlab' rel='stylesheet'>
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("#ham").click(function(){
-    $("#mobilenavigation").slideToggle("slow");
-  });
-});
-</script>
-<script>
-$(document).ready(function() {
-    $("#backtoTop").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
- });
-</script>
-<script>
-$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 800) {
-    $('#backtoTop').fadeIn();
-  } else {
-    $('#backtoTop').fadeOut();
-  }
-});
-</script>
 </head>
 <body>
   <div class="fullpage">
@@ -403,6 +377,32 @@ $(document).scroll(function() {
   <div class="topbottom">
     <a id="backtoTop" href="#">&#10148;</a>
   </div>
+  <script>
+$(document).ready(function(){
+  $("#ham").click(function(){
+    $("#mobilenavigation").slideToggle("slow");
+  });
+});
+</script>
+<script>
+$(document).ready(function() {
+    $("#backtoTop").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+ });
+</script>
+<script>
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 800) {
+    $('#backtoTop').fadeIn();
+  } else {
+    $('#backtoTop').fadeOut();
+  }
+});
+</script>
 </body>
 </html>
 
