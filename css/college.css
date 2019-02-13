@@ -723,7 +723,7 @@ form {
     width: 30px;
     cursor: pointer;
     position: fixed;
-    bottom: 70px;
+    bottom: 100px;
     right: 5px;
     background-color: rgba(245,176,31,0.9) ;
     color:  #fff;
